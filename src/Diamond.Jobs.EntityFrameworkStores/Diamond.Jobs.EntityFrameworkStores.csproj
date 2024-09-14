@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Diamond.Jobs.Abstract\Diamond.Jobs.Abstract.csproj" />
+    <ProjectReference Include="..\Diamond.Jobs.Contracts\Diamond.Jobs.Contracts.csproj" />
+    <ProjectReference Include="..\Diamond.Jobs.DataAccess\Diamond.Jobs.DataAccess.csproj" />
+    <ProjectReference Include="..\Diamond.Jobs.DependencyInjection\Diamond.Jobs.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Diamond.Jobs\Diamond.Jobs.csproj" />
+  </ItemGroup>
+
+</Project>
