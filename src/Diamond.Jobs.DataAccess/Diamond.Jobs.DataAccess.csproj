@@ -15,4 +15,37 @@
     <ProjectReference Include="..\Diamond.Jobs.Abstract\Diamond.Jobs.Abstract.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Resources\JobResultTableResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>JobResultTableResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\JobTableResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>JobTableResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\SqlResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SqlResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\JobResultTableResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>JobResultTableResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\JobTableResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>JobTableResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\SqlResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SqlResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>
