@@ -13,8 +13,4 @@
     <ProjectReference Include="..\Diamond.Jobs\Diamond.Jobs.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Extensions\" />
-  </ItemGroup>
-
 </Project>
